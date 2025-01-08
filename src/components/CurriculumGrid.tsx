@@ -13,7 +13,7 @@ export function CurriculumGrid({ courses, onCourseClick }: CurriculumGridProps) 
   
   return (
     <div className="overflow-x-auto">
-      <div className="min-w-[1200px] p-6">
+      <div className="min-w-[1400px] p-6">
         <div className="grid grid-cols-9 gap-4">
           {/* Header */}
           {semesters.map(semester => (
