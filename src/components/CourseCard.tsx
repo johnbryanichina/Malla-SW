@@ -12,7 +12,7 @@ export function CourseCard({ course, onClick }: CourseCardProps) {
   return (
     <button title={course.name}
       onClick={() => onClick(course)}
-      className={`w-full p-3 ${colors.bg} ${colors.border} border-2 rounded-lg 
+      className={`w-full h-48 p-3 ${colors.bg} ${colors.border} border-2 rounded-lg 
         hover:shadow-md transition-all duration-200 text-left group`}
     >
        <div className="flex items-center text-xs text-gray-500">
