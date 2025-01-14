@@ -12,7 +12,7 @@ export function CurriculumGrid({ courses, onCourseClick }: CurriculumGridProps) 
   
   return (
     <div className="overflow-x-hidden p-6">
-      <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-9 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-9 gap-1">
         {semesters.map((semester) => (
           <div key={semester} className="space-y-3">
              
