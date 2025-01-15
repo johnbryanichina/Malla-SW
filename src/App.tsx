@@ -12,13 +12,15 @@ function App() {
   const handleCourseClick = (course: Course) => {
     setSelectedCourse(course); // Establecer el curso seleccionado para abrir el modal
   };
-
+ 
   return (
     <div className="min-h-screen bg-gray-50">
       <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
           <div className="flex items-center space-x-3">
-            <GraduationCap className="h-8 w-8 text-blue-600" />
+            {/* <GraduationCap className="h-8 w-8 text-blue-600" /> */}
+            
+            <img src='/src/assets/logoFIE.png' className="h-10 w-25" alt="FIE"/>
             <h1 className="text-2xl font-bold text-gray-900">
               Malla Curricular - Ingeniería de Software
             </h1>
